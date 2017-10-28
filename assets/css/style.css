@@ -1,0 +1,83 @@
+body {
+	background-color: grey;
+	margin: 0;
+	padding: 0;
+}
+header {
+
+	width: 100%;
+	border-bottom: solid 1px #cccccc;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+a:link, a:visited {
+
+    color: grey;
+    text-align: center; 
+    text-decoration: none;
+}
+
+a:hover{
+
+	color: pink;
+}
+
+li {
+	margin-top: 10px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+#navagationLinks {
+
+	float: right;
+	margin-right: 175px;
+}
+
+#nameHeader {
+	clear: both;
+	margin-left: 150px;
+	background-color: #4aaaa5;
+	padding: 24px;
+	overflow: auto;
+}
+
+.socialContainer {
+
+	text-align: center;
+	width: 260px;
+	height: 200px;
+	float: right;
+	margin-right: 175px;
+	background-color: #ffffff;
+	border: solid 1px grey;
+}
+
+#socialHeader {
+
+	padding: 2px;
+}
+
+#bioContainer {
+
+	width: 670px;
+	margin-left: 150px;
+	padding: 20px;
+	font-family: arial;
+	background-color: white;
+	border: solid 1px grey;
+	overflow: auto;
+}
+
+#bioHeader {
+
+	background-color: white;
+	border-bottom: solid #cccccc;
+	color: #4aaaa5;
+}
+
+.content {
+
+	background-color: #ffffff
+}
