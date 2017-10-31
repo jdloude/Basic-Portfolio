@@ -11,6 +11,19 @@ a:hover {
 	color: pink;
 }
 
+footer{
+	clear: both;
+	width: 100%;
+	background-color: #666666;
+	position: fixed;
+	bottom: 0;
+	padding: 25px;
+	text-align: center;
+	color: #ffffff;
+	border-top: solid 5px #4aaaa5; 
+
+}
+
 .header {
 	background-color: #ffffff;
 	margin: auto;
@@ -43,6 +56,7 @@ a:hover {
 }
 
 .leftContainer{
+
 	width: 650px;
 	background-color: #ffffff;
 	position: absolute;
@@ -50,8 +64,14 @@ a:hover {
 }
 
 .leftHeader{
+
 	margin: 30px;
 	border-bottom: solid 3px #dddddd;
+}
+
+.leftContent{
+	margin: 30px;
+
 }
 .socialContainer {
 	background-color: #ffffff;
@@ -68,16 +88,4 @@ a:hover {
 
 .socialLinks {
 	margin-bottom: 30px;
-}
-footer{
-	clear: both;
-	width: 100%;
-	background-color: #666666;
-	position: fixed;
-	bottom: 0;
-	padding: 25px;
-	text-align: center;
-	color: #ffffff;
-	border-top: solid 5px #4aaaa5; 
-
 }
