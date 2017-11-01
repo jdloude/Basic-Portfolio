@@ -1,4 +1,5 @@
 body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
 }
 
@@ -10,8 +11,29 @@ a:active, a:visited, a:link {
 a:hover {
 	color: pink;
 }
+p{
+	text-indent: 30px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+footer {
+
+	position: absolute;
+	bottom: 0;
+ 	width: 100%;
+ 	height: 20px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: #666666;
+	color: #ffffff;
+	border-top: solid 5px #4aaaa5;
+ 
+
+}
 
 .header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #ffffff;
 	margin: auto;
 	border-bottom: solid 1px #cccccc;
@@ -43,15 +65,24 @@ a:hover {
 }
 
 .leftContainer{
+
 	width: 650px;
 	background-color: #ffffff;
-	position: absolute;
+	float: left;
 	border: solid 2px #dddddd;
 }
 
 .leftHeader{
+
 	margin: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
 	border-bottom: solid 3px #dddddd;
+}
+
+.leftContent{
+	margin: 30px;
+
 }
 .socialContainer {
 	background-color: #ffffff;
@@ -63,21 +94,11 @@ a:hover {
 
 .socialHeader{
 	margin: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
 	border-bottom: solid 3px #dddddd;
 }
 
 .socialLinks {
 	margin-bottom: 30px;
-}
-footer{
-	clear: both;
-	width: 100%;
-	background-color: #666666;
-	position: fixed;
-	bottom: 0;
-	padding: 25px;
-	text-align: center;
-	color: #ffffff;
-	border-top: solid 5px #4aaaa5; 
-
 }
