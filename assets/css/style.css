@@ -32,6 +32,19 @@ footer {
 
 }
 
+footer{
+	clear: both;
+	width: 100%;
+	background-color: #666666;
+	position: fixed;
+	bottom: 0;
+	padding: 25px;
+	text-align: center;
+	color: #ffffff;
+	border-top: solid 5px #4aaaa5; 
+
+}
+
 .header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #ffffff;
