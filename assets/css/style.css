@@ -9,16 +9,16 @@ a:active, a:visited, a:link {
 }
 
 a:hover {
-	color: pink;
+	color: #4aaaa5 ;
 }
-p{
+
+p {
 	text-indent: 30px;
 	text-align: justify;
 	line-height: 20px;
 }
 
 footer {
-
 	position: absolute;
 	bottom: 0;
  	width: 100%;
@@ -28,22 +28,7 @@ footer {
 	background-color: #666666;
 	color: #ffffff;
 	border-top: solid 5px #4aaaa5;
- 
-
-}
-
-footer{
-	clear: both;
-	width: 100%;
-	background-color: #666666;
-	position: fixed;
-	bottom: 0;
-	padding: 25px;
-	text-align: center;
-	color: #ffffff;
-	border-top: solid 5px #4aaaa5; 
-
-}
+ }
 
 .header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -78,7 +63,6 @@ footer{
 }
 
 .leftContainer{
-
 	width: 650px;
 	background-color: #ffffff;
 	float: left;
@@ -86,7 +70,6 @@ footer{
 }
 
 .leftHeader{
-
 	margin: 30px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
@@ -95,8 +78,8 @@ footer{
 
 .leftContent{
 	margin: 30px;
-
 }
+
 .socialContainer {
 	background-color: #ffffff;
 	width: 270px;
@@ -114,4 +97,17 @@ footer{
 
 .socialLinks {
 	margin-bottom: 30px;
+}
+
+.portfolioImages {
+	padding: 20px 40px 20px 0px;
+	height: 100px;
+	width: 100px;
+}
+
+.image_one {
+	height: 20px;
+	width:100%;
+	background-color: green;
+
 }
